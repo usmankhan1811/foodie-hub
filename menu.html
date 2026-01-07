@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Menu | Foodie Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <h1>Foodie Hub</h1>
+    <p>Our Delicious Menu</p>
+  </header>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="cart.html">Cart</a>
+    <a href="checkout.html">Order</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- ===== MENU ITEMS ===== -->
+  <section class="menu">
+
+    <div class="item">
+      <h3>Burger</h3>
+      <p class="price">Rs 500</p>
+      <button onclick="addToCart('Burger', 500)">Add to Cart</button>
+    </div>
+
+    <div class="item">
+      <h3>Pizza</h3>
+      <p class="price">Rs 1200</p>
+      <button onclick="addToCart('Pizza', 1200)">Add to Cart</button>
+    </div>
+
+    <div class="item">
+      <h3>Pasta</h3>
+      <p class="price">Rs 800</p>
+      <button onclick="addToCart('Pasta', 800)">Add to Cart</button>
+    </div>
+
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
