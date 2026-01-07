@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Cart | Foodie Hub</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <h1>Foodie Hub</h1>
+    <p>Your Cart</p>
+  </header>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="cart.html">Cart</a>
+    <a href="checkout.html">Order</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- ===== CART ITEMS ===== -->
+  <section class="cart">
+    <table id="cartTable">
+      <thead>
+        <tr>
+          <th>Item</th>
+          <th>Price</th>
+          <th>Remove</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- JS will fill cart items here -->
+      </tbody>
+    </table>
+    <p id="totalAmount"></p>
+    <a href="checkout.html" class="btn">Proceed to Checkout</a>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
